@@ -1,6 +1,4 @@
 dataNascimento = input('Insira sua data de nascimento completa: ')
-if dataNascimento == '11/09/2007':
-    print('<3<3<3 a data do meu amorzinho')
 dataAtual = input('Insira a data atual (dia, mes e ano): ')
 dataNascimentoSemBarra = dataNascimento.split('/')
 diaNascimento = int(dataNascimentoSemBarra[0])
