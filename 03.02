@@ -1,0 +1,7 @@
+numero = int(input('digite um numero: '))
+if numero < 10:
+    print('seu numero é menor q 10')
+elif numero >= 10 and numero <= 50:
+    print('seu numero esta entre 10 e 50')
+elif numero > 50:
+    print('seu numero é maior q 50')
